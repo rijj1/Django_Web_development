@@ -1,5 +1,5 @@
 # Django Web development
-Step to start Developing Using Django
+Step to start Developing Using Django from scratch
 
 ### 1. Enable Virtual Environment
 First run the below command to make a virtual environment
@@ -28,4 +28,10 @@ cd django_project
 To run the webserver just run the following command:
 ````bash
 python3 manage.py runserver
+````
+
+### 4. Creating a Database
+To create a database just run the command:
+````bash
+python3 manage.py migrate
 ````
