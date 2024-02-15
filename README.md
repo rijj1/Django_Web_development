@@ -1,6 +1,7 @@
 # Django Web development
-Step to start Developing Using Django from scratch
+For starting you must have python installed in your machine
 
+## Step to start Developing Using Django from scratch
 ### 1. Enable Virtual Environment
 First run the below command to make a virtual environment
 ````bash
