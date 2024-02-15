@@ -22,7 +22,7 @@ pip install django
 ### 3. Create a Django project
 To create a new project with name django_project, run the following command:
 ````bash
-django-admin createproject django_project
+django-admin startproject django_project
 cd django_project
 ````
 To run the webserver just run the following command:
