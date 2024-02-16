@@ -16,3 +16,11 @@ If using in gitpod add this line in settings.py
 ````bash
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 ````
+## 2. Create a new app
+(a) For creating a new app name 'main', run the code
+````bash
+python3 manage.py startapp main
+````
+(b) Include the <b>main</b> app name in the car_listing settings.py inside INSTALLED_APPS
+(c) Add the views and include it in the url.py file
+(d) Done... You can now start developing the main app
